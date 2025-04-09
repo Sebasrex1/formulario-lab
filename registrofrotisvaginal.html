@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario Frotis Vaginal</title>
+  <link rel="stylesheet" href="registrofrostisvaginal.css"> 
+</head>
+<body>
+
+  <img src="LogolabUdes.webp" alt="Logo Hospital" class="logo-udes">
+  
+  <div class="sidebar">
+    <h2>Hospital X</h2>
+    <nav>
+      <ul class="menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li>
+          <a href="#" aria-haspopup="true">Formulario Pacientes</a>
+          <ul class="submenu">
+
+           
+            <li><a href="registropacienteparticular.html">Registro Paciente Particular</a></li>
+            <li><a href="registroinmunologia.html">Registro Inmunología</a></li>
+            <li><a href="registroleuishmania.html">Registro Leishmania</a></li>
+            <li><a href="registrofrotisvaginal.html">Registro Frotis Vaginal</a></li>
+            <li><a href="registromalaria.html">Registro Malaria</a></li>
+            <li><a href="registrouroanalisis.html">Registro Uroanálisis</a></li>
+            <li><a href="registrohematologia.html">Registro Hematología</a></li>
+            <li><a href="registrodedengue.html">Registro Dengue</a></li>
+            <li><a href="registrodecoprologico.html">Registro Coprologico</a></li>
+            <li><a href="registrodequimica.html">Registro Quimica Sanguinea</a></li>
+
+
+          </ul>
+
+        </li>
+
+        <li>
+
+          <a href="" aria-haspopup="true">Formulario Laboratorio</a>
+          <ul class="submenu">
+
+            <li><a href="registrotemperatura.html">Registro Temperatura</a></li>
+            <li><a href="entregademuestras.html">Registro Entrega de Muestras</a></li>
+            <li><a href="examenesremitidos.html">Registro Examen Remitidos</a></li>
+
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="main-content">
+    <div class="bienvenida-header">
+      <h1>Gestión de Formularios</h1>
+    </div>
+
+    <div class="bienvenida-contenido formulario-layout">
+      <form class="formulario">
+        <h2>Formulario de Frotis de flujo vaginal</h2>
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad" required>
+
+        <fieldset class="formulario-marco">
+          <legend>Examen en fresco</legend>
+          <div class="formulario-grid">
+            <div class="form-group">
+              <label for="ph">PH</label>
+              <input type="number" id="ph" name="ph" required>
+            </div>
+            <div class="form-group">
+              <label for="celulas">Células</label>
+              <input type="number" id="celulas" name="celulas" required>
+            </div>
+            <div class="form-group">
+              <label for="leucocitos">Leucocitos</label>
+              <input type="number" id="leucocitos" name="leucocitos" required>
+            </div>
+            <div class="form-group">
+              <label for="bacterias">Bacterias</label>
+              <input type="number" id="bacterias" name="bacterias" required>
+            </div>
+            <div class="form-group">
+              <label for="hematies">Hematies</label>
+              <input type="number" id="hematies" name="hematies" required>
+            </div>
+            <div class="form-group">
+              <label for="levadura">Levadura</label>
+              <input type="number" id="levadura" name="levadura" required>
+            </div>
+            <div class="form-group">
+              <label for="celulasguias">Células Guía</label>
+              <input type="number" id="celulasguias" name="celulasguias" required>
+            </div>
+            <div class="form-group">
+              <label for="otro">Otro</label>
+              <input type="text" id="otro" name="otro" required>
+            </div>
+          </div>
+        </fieldset>
+
+        <label for="examendirecto">Examen directo (Gram)</label>
+        <input type="text" id="examendirecto" name="examendirecto" required>
+
+        <label for="koh">KOH</label>
+        <input type="text" id="koh" name="koh" required>
+
+        <label for="otros">Otros</label>
+        <input type="text" id="otros" name="otros" required>
+
+        <button type="submit">Enviar Paciente</button><br>
+        <br>
+
+        <a href="pdfs/FORMATO - REGISTRO DE FROTIS VAGINAL.pdf.pdf" download>Descargar Formato de Registro Frotis Vaginal</a>
+
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>

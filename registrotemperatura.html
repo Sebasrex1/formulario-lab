@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Inicio</title>
+  <link rel="stylesheet" href="registrotemperatura.css">
+</head>
+<body>
+
+  <img src="LogolabUdes.webp" alt="Logo Hospital" class="logo-udes">
+  
+  <div class="sidebar">
+    <h2>Hospital X</h2>
+    <nav>
+      <ul class="menu">
+        <li>
+          <a href="index.html">Inicio</a>
+        </li>
+        <li>
+          <a href="#">Formulario Pacientes</a> 
+          <ul class="submenu">
+
+           
+            <li><a href="registropacienteparticular.html">Registro Paciente Particular</a></li>
+            <li><a href="registroinmunologia.html">Registro Inmunología</a></li>
+            <li><a href="registroleuishmania.html">Registro Leishmania</a></li>
+            <li><a href="registrofrotisvaginal.html">Registro Frotis Vaginal</a></li>
+            <li><a href="registromalaria.html">Registro Malaria</a></li>
+            <li><a href="registrouroanalisis.html">Registro Uroanálisis</a></li>
+            <li><a href="registrohematologia.html">Registro Hematología</a></li>
+            <li><a href="registrodedengue.html">Registro Dengue</a></li>
+            <li><a href="registrodecoprologico.html">Registro Coprologico</a></li>
+            <li><a href="registrodequimica.html">Registro Quimica Sanguinea</a></li>
+
+
+          </ul>
+
+        </li>
+
+        <li>
+
+          <a href="" aria-haspopup="true">Formulario Laboratorio</a>
+          <ul class="submenu">
+
+            <li><a href="registrotemperatura.html">Registro Temperatura</a></li>
+            <li><a href="entregademuestras.html">Registro Entrega de Muestras</a></li>
+            <li><a href="examenesremitidos.html">Registro Examen Remitidos</a></li>
+
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="main-content">
+    <div class="bienvenida-header">
+      <h1>Gestión de Formularios</h1>
+    </div>
+
+    <div class="bienvenida-contenido formulario-layout">
+      <form class="formulario">
+        <h2>Formulario Temperatura Laboratorio</h2>
+
+        <label for="Fecha">Fecha:</label>
+        <input type="date" id="Fecha" name="Fecha" required>
+
+        <label for="jornada">Jornada:</label>
+        <select id="jornada" name="jornada" required>
+          <option value="">Seleccione una opción</option>
+          <option value="mañana">Mañana</option>
+          <option value="tarde">Tarde</option>
+        </select>
+
+        <label for="temperatura">Temperatura:</label>
+        <input type="number" id="temperatura" name="temperatura" required>
+
+        <label for="humedad">Humedad relativa:</label>
+        <input type="number" id="humedad" name="humedad" required>
+
+        <label for="cadena">Cadena de frio:</label>
+        <input type="number" id="cadena" name="cadena" required>
+
+        <button type="submit">Enviar Paciente</button><br>
+        <br>
+
+        <a href="pdfs/FORMATO - REGISTTRO DE TEMPERATURAS.pdfpdf" download>Descargar Formato de Registro Temperaturas</a>
+
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>

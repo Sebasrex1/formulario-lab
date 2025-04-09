@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Inicio</title>
+  <link rel="stylesheet" href="entregademuestras.css"> 
+  
+</head>
+
+<body>
+
+  <img src="LogolabUdes.webp" alt="Logo Hospital" class="logo-udes">
+  
+  <div class="sidebar">
+    <h2>Hospital X</h2>
+
+    <nav>
+
+      <ul class="menu">
+
+        <li>
+          <a href="index.html">Inicio</a>
+        </li>
+
+        <li>
+          <a href="" aria-haspopup="true">Formulario Pacientes</a>
+
+          <ul class="submenu">
+
+           
+            <li><a href="registropacienteparticular.html">Registro Paciente Particular</a></li>
+            <li><a href="registroinmunologia.html">Registro Inmunología</a></li>
+            <li><a href="registroleuishmania.html">Registro Leishmania</a></li>
+            <li><a href="registrofrotisvaginal.html">Registro Frotis Vaginal</a></li>
+            <li><a href="registromalaria.html">Registro Malaria</a></li>
+            <li><a href="registrouroanalisis.html">Registro Uroanálisis</a></li>
+            <li><a href="registrohematologia.html">Registro Hematología</a></li>
+            <li><a href="registrodedengue.html">Registro Dengue</a></li>
+            <li><a href="registrodecoprologico.html">Registro Coprologico</a></li>
+            <li><a href="registrodequimica.html">Registro Quimica Sanguinea</a></li>
+
+
+          </ul>
+
+        </li>
+
+        <li>
+
+          <a href="" aria-haspopup="true">Formulario Laboratorio</a>
+          <ul class="submenu">
+
+            <li><a href="registrotemperatura.html">Registro Temperatura</a></li>
+            <li><a href="entregademuestras.html">Registro Entrega de Muestras</a></li>
+            <li><a href="examenesremitidos.html">Registro Examen Remitidos</a></li>
+
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="main-content">
+
+    <div class="bienvenida-header">
+      <h1>Gestión de Formularios</h1>
+    </div>
+
+    <div class="bienvenida-contenido formulario-layout">
+
+      <form class="formulario">
+
+        <h2>Formulario Entrega de Muestras</h2>
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="id">Identificación</label>
+        <input type="number" id="id" name="id" required>
+
+        <label for="edad">Edad</label>
+        <input type="number" id="edad" name="edad">
+
+        <label for="muestra">Muestra Entregada</label>
+        <input type="text" id="muestra" name="muestra" required>
+
+        <label for="hora">Hora de toma</label>
+        <input type="datetime" id="hora" name="hora" required>
+
+        <label for="temp">T° de la muestra</label>
+        <input type="text" id="temp" name="temp" required>
+
+        <label for="entrega">Hora de entrega</label>
+        <input type="datetime" id="entrega" name="entrega" required>
+
+        <label for="firma">Nombre de quien reciba</label>
+        <input type="text" id="firma" name="firma" required>
+
+        <button type="submit">Enviar</button><br>
+        <br>
+
+        <a href="pdfs/FORMATO - ENTREGA DE MUESTRAS.pdf.pdf" download>Descargar Formato Entraga de Muestras</a>
+
+
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>

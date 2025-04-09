@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario de Hematología</title>
+  <link rel="stylesheet" href="registrohematologia.css">
+</head>
+<body>
+  <img src="LogolabUdes.webp" alt="Logo Hospital" class="logo-udes">
+
+  <div class="sidebar">
+    <h2>Hospital X</h2>
+    <nav>
+      <ul class="menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li>
+          <a href="#" aria-haspopup="true">Formulario Pacientes</a>
+          <ul class="submenu">
+
+           
+            <li><a href="registropacienteparticular.html">Registro Paciente Particular</a></li>
+            <li><a href="registroinmunologia.html">Registro Inmunología</a></li>
+            <li><a href="registroleuishmania.html">Registro Leishmania</a></li>
+            <li><a href="registrofrotisvaginal.html">Registro Frotis Vaginal</a></li>
+            <li><a href="registromalaria.html">Registro Malaria</a></li>
+            <li><a href="registrouroanalisis.html">Registro Uroanálisis</a></li>
+            <li><a href="registrohematologia.html">Registro Hematología</a></li>
+            <li><a href="registrodedengue.html">Registro Dengue</a></li>
+            <li><a href="registrodecoprologico.html">Registro Coprologico</a></li>
+            <li><a href="registrodequimica.html">Registro Quimica Sanguinea</a></li>
+
+
+          </ul>
+
+        </li>
+
+        <li>
+
+          <a href="" aria-haspopup="true">Formulario Laboratorio</a>
+          <ul class="submenu">
+
+            <li><a href="registrotemperatura.html">Registro Temperatura</a></li>
+            <li><a href="entregademuestras.html">Registro Entrega de Muestras</a></li>
+            <li><a href="examenesremitidos.html">Registro Examen Remitidos</a></li>
+
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="main-content">
+    <div class="bienvenida-header">
+      <h1>Gestión de formularios</h1>
+    </div>
+
+    <div class="bienvenida-contenido formulario-layout">
+      <form class="formulario">
+        <h2>Formulario hematología</h2>
+
+        <label for="nombre">Nombre paciente:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad" required>
+
+        <div class="formulario-grid">
+          <div class="form-group">
+            <label for="HTO">HTO:</label>
+            <input type="text" id="HTO" name="HTO" required>
+          </div>
+          <div class="form-group">
+            <label for="HB">HB:</label>
+            <input type="text" id="HB" name="HB" required>
+          </div>
+          <div class="form-group">
+            <label for="VSG">VSG:</label>
+            <input type="text" id="VSG" name="VSG" required>
+          </div>
+          <div class="form-group">
+            <label for="leucocitos">Leucocitos:</label>
+            <input type="text" id="leucocitos" name="leucocitos" required>
+          </div>
+          <div class="form-group">
+            <label for="neutrofilos">Neutrófilos:</label>
+            <input type="text" id="neutrofilos" name="neutrofilos" required>
+          </div>
+          <div class="form-group">
+            <label for="linfocitos">Linfocitos:</label>
+            <input type="text" id="linfocitos" name="linfocitos" required>
+          </div>
+          <div class="form-group">
+            <label for="monocitos">Monocitos:</label>
+            <input type="text" id="monocitos" name="monocitos" required>
+          </div>
+          <div class="form-group">
+            <label for="eosinofilos">Eosinófilos:</label>
+            <input type="text" id="eosinofilos" name="eosinofilos" required>
+          </div>
+          <div class="form-group">
+            <label for="basofilos">Basófilos:</label>
+            <input type="text" id="basofilos" name="basofilos" required>
+          </div>
+          <div class="form-group">
+            <label for="plaquetas">Plaquetas:</label>
+            <input type="text" id="plaquetas" name="plaquetas" required>
+          </div>
+          <div class="form-group">
+            <label for="rh">RH:</label>
+            <input type="text" id="rh" name="rh" required>
+          </div>
+          <div class="form-group">
+            <label for="globulosrojos">Glóbulos rojos:</label>
+            <input type="text" id="globulosrojos" name="globulosrojos" required>
+          </div>
+          <div class="form-group">
+            <label for="indice">Indice eritrocitario:</label>
+            <input type="text" id="indice" name="indice" required>
+          </div>
+          <div class="form-group">
+            <label for="gota">Gota gruesa:</label>
+            <input type="text" id="gota" name="gota" required>
+          </div>
+          <div class="form-group">
+            <label for="extendido">Extendido sangre periférica:</label>
+            <input type="text" id="extendido" name="extendido" required>
+          </div>
+          <div class="form-group">
+            <label for="diagnostico">Diagnóstico presuntivo:</label>
+            <input type="text" id="diagnostico" name="diagnostico" required>
+          </div>
+          <div class="form-group">
+            <label for="observacion">Observación:</label>
+            <input type="text" id="observacion" name="observacion" required>
+          </div>
+        </div>
+
+        <button type="submit">Enviar</button><br>
+        <br>
+
+        <a href="pdfs/FORMATO - HEMATOLOGÍA.pdf.pdf" download>Descargar Formato de Registro Hematologia</a>
+
+      </form>
+    </div>
+  </div>
+</body>
+</html>

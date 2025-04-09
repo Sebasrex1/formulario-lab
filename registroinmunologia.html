@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario Inmunología</title>
+  <link rel="stylesheet" href="registroinmunologia.css"> 
+</head>
+<body>
+
+  <!-- Logo -->
+  <img src="LogolabUdes.webp" alt="Logo Hospital" class="logo-udes">
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <h2>Hospital X</h2>
+    <nav>
+      <ul class="menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li>
+          <a href="#" aria-haspopup="true">Formulario Pacientes</a>
+          <ul class="submenu">
+
+           
+            <li><a href="registropacienteparticular.html">Registro Paciente Particular</a></li>
+            <li><a href="registroinmunologia.html">Registro Inmunología</a></li>
+            <li><a href="registroleuishmania.html">Registro Leishmania</a></li>
+            <li><a href="registrofrotisvaginal.html">Registro Frotis Vaginal</a></li>
+            <li><a href="registromalaria.html">Registro Malaria</a></li>
+            <li><a href="registrouroanalisis.html">Registro Uroanálisis</a></li>
+            <li><a href="registrohematologia.html">Registro Hematología</a></li>
+            <li><a href="registrodedengue.html">Registro Dengue</a></li>
+            <li><a href="registrodecoprologico.html">Registro Coprologico</a></li>
+            <li><a href="registrodequimica.html">Registro Quimica Sanguinea</a></li>
+
+
+          </ul>
+
+        </li>
+
+        <li>
+
+          <a href="" aria-haspopup="true">Formulario Laboratorio</a>
+          <ul class="submenu">
+
+            <li><a href="registrotemperatura.html">Registro Temperatura</a></li>
+            <li><a href="entregademuestras.html">Registro Entrega de Muestras</a></li>
+            <li><a href="examenesremitidos.html">Registro Examen Remitidos</a></li>
+
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main-content">
+    <div class="bienvenida-header">
+      <h1>Gestión de Formularios</h1>
+    </div>
+
+    <div class="bienvenida-contenido formulario-layout">
+      <form class="formulario">
+        <h2>Formulario de Inmunología</h2>
+
+        <label for="nombre">Nombre del paciente:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad" required>
+
+        <fieldset>
+          <legend>Exámenes solicitados:</legend>
+          <div class="checkbox-grid">
+            <label><span>V.D.R.L</span><input type="checkbox" name="examenes" value="vdrl" /></label>
+            <label><span>Prueba Treponémica</span><input type="checkbox" name="examenes" value="treponemica" /></label>
+            <label><span>Prueba embarazo</span><input type="checkbox" name="examenes" value="embarazo" /></label>
+            <label><span>VIH PBA rápida</span><input type="checkbox" name="examenes" value="vih" /></label>
+            <label><span>Prueba rápida hepatitis B</span><input type="checkbox" name="examenes" value="hepatitisb" /></label>
+            <label><span>Prueba rápida hepatitis C</span><input type="checkbox" name="examenes" value="hepatitisc" /></label>
+            <label><span>Sangre oculta en heces</span><input type="checkbox" name="examenes" value="sangre" /></label>
+
+            
+          </div>
+        </fieldset>
+
+
+        <button type="submit">Enviar</button><br>
+        <br>
+
+        <a href="pdfs/FORMATO - REGISTRO DE INMUNOLOGÍA.pdf" download>Descargar Formato de Registro Inmunología</a>
+
+
+      </form>
+      
+    </div>
+    
+  </div>
+
+</body>
+</html>

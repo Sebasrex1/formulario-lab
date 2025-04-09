@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario de Uroanálisis</title>
+  <link rel="stylesheet" href="registrouroanalisis.css">
+</head>
+<body>
+
+  <img src="LogolabUdes.webp" alt="Logo Hospital" class="logo-udes">
+  
+  <div class="sidebar">
+    <h2>Hospital X</h2>
+    <nav>
+      <ul class="menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li>
+          <a href="#" aria-haspopup="true">Formulario Pacientes</a>
+          <ul class="submenu">
+
+           
+            <li><a href="registropacienteparticular.html">Registro Paciente Particular</a></li>
+            <li><a href="registroinmunologia.html">Registro Inmunología</a></li>
+            <li><a href="registroleuishmania.html">Registro Leishmania</a></li>
+            <li><a href="registrofrotisvaginal.html">Registro Frotis Vaginal</a></li>
+            <li><a href="registromalaria.html">Registro Malaria</a></li>
+            <li><a href="registrouroanalisis.html">Registro Uroanálisis</a></li>
+            <li><a href="registrohematologia.html">Registro Hematología</a></li>
+            <li><a href="registrodedengue.html">Registro Dengue</a></li>
+            <li><a href="registrodecoprologico.html">Registro Coprologico</a></li>
+            <li><a href="registrodequimica.html">Registro Quimica Sanguinea</a></li>
+
+
+          </ul>
+
+        </li>
+
+        <li>
+
+          <a href="" aria-haspopup="true">Formulario Laboratorio</a>
+          <ul class="submenu">
+
+            <li><a href="registrotemperatura.html">Registro Temperatura</a></li>
+            <li><a href="entregademuestras.html">Registro Entrega de Muestras</a></li>
+            <li><a href="examenesremitidos.html">Registro Examen Remitidos</a></li>
+
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="main-content">
+    <div class="bienvenida-header">
+      <h1>Gestión de Formularios</h1>
+    </div>
+
+    <div class="bienvenida-contenido formulario-layout">
+      <form class="formulario">
+        <h2>Formulario Uroanálisis</h2>
+
+        <label for="nombre">Nombre paciente:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad" required>
+
+        <label for="color">Color:</label>
+        <input type="text" id="color" name="color" required>
+
+        <label for="aspecto">Aspecto:</label>
+        <input type="text" id="aspecto" name="aspecto" required>
+
+        <label for="ph">PH:</label>
+        <input type="number" id="ph" name="ph" required>
+
+        <label for="densidad">Densidad:</label>
+        <input type="text" id="densidad" name="densidad" required>
+
+        <fieldset class="formulario-marco">
+          <legend>Lectura tira reactiva</legend>
+          <div class="formulario-grid">
+            <div class="form-group">
+              <label for="leocucitos">Leucocitos:</label>
+              <input type="text" id="leocucitos" name="leocucitos" required>
+            </div>
+            <div class="form-group">
+              <label for="nitritos">Nitritos:</label>
+              <input type="text" id="nitritos" name="nitritos" required>
+            </div>
+            <div class="form-group">
+              <label for="urobilinog">Urobilinog:</label>
+              <input type="text" id="urobilinog" name="urobilinog" required>
+            </div>
+            <div class="form-group">
+              <label for="proteinas">Proteinas:</label>
+              <input type="text" id="proteinas" name="proteinas" required>
+            </div>
+            <div class="form-group">
+              <label for="sangre">Sangre:</label>
+              <input type="text" id="sangre" name="sangre" required>
+            </div>
+            <div class="form-group">
+              <label for="cetona">Cetona:</label>
+              <input type="text" id="cetona" name="cetona" required>
+            </div>
+            <div class="form-group">
+              <label for="bilirrubina">Bilirrubina:</label>
+              <input type="text" id="bilirrubina" name="bilirrubina" required>
+            </div>
+            <div class="form-group">
+              <label for="glucosa">Glucosa:</label>
+              <input type="text" id="glucosa" name="glucosa" required>
+            </div>
+          </div>
+        </fieldset>
+
+        <label for="moco">Moco:</label>
+        <input type="text" id="moco" name="moco" required>
+
+        <label for="leocucitos2">Leucocitos:</label>
+        <input type="text" id="leocucitos2" name="leocucitos2" required>
+
+        <label for="eritrocitos">Eritrocitos:</label>
+        <input type="text" id="eritrocitos" name="eritrocitos" required>
+
+        <label for="bacterias">Bacterias:</label>
+        <input type="text" id="bacterias" name="bacterias" required>
+
+        <label for="celulasbajas">Células bajas:</label>
+        <input type="text" id="celulasbajas" name="celulasbajas" required>
+
+        <label for="celulasaltas">Células altas:</label>
+        <input type="text" id="celulasaltas" name="celulasaltas" required>
+
+        <label for="cristales">Cristales:</label>
+        <input type="text" id="cristales" name="cristales" required>
+
+        <label for="cilindros">Cilindros:</label>
+        <input type="text" id="cilindros" name="cilindros" required>
+
+        <label for="levaduras">Levaduras:</label>
+        <input type="text" id="levaduras" name="levaduras" required>
+
+        <label for="dx">DX presuntivo:</label>
+        <input type="text" id="dx" name="dx" required>
+
+        <label for="otros">Otros:</label>
+        <input type="text" id="otros" name="otros" required>
+
+        <button type="submit">Enviar</button><br>
+        <br>
+
+        <a href="pdfs/FORMATO - REGISTRO DE UROANALISIS.pdf" download>Descargar Formato de Registro Uroanálisis</a>
+
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
